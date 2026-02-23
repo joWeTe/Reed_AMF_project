@@ -4,7 +4,7 @@ Study of the presence of Arbsucule Mycorrhizal Fungi in a dutch aquatic ecosyste
 
 # Description
 We sampled 100 year old reed fields (_Phragmites australis_) to study the presence of arbsucule mycorrhizal fungi (AMF) between soil-borne reed roots and aquatic-borne reed roots. Root colonisation of AMF and sequencing of these microbial community was assessed to identify presence and diversity of aquatic AMF. This Github Folder contains the data as well as the R code used in the analyses. 
-_
+
 # Folder contents:
 
 R file needed to run the code for data analyses. R libraries needed can be found within the first section of the R file.
