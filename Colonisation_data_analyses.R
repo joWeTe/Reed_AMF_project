@@ -14,10 +14,12 @@ library(ggplot2)
 library(patchwork)
 library(dplyr)
 
+###### IMPORTANT #### - SET WD BEFORE STARTING
+setwd(XXXX)
+
 # Import data and check if imported properly
 
-
-data<-read.csv("C:/Users/jrafa/OneDrive/Ambiente de Trabalho/AMF_publication/AMF_RESULTS_CSV_3.csv",header=T)
+data<- read.csv("Reed_AMF_project/AMF_RESULTS_CSV_3.csv")
 
 show(data)
 
@@ -108,8 +110,6 @@ for (column in columns_to_test) {
 
 
 ### sig graphs, automatically saved:-------------------------------------------------------------------------------------------------------
-
-setwd("C:/Users/jrafa/OneDrive/Ambiente de Trabalho/AMF_publication")
 
 # Color coding each group
 treatment_colors <- c(
